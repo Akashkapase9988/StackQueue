@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace day14stack
+namespace day14stackqueue
 {
 	
 	class uc2
 	{
-		public static void peekpop(String[] ar)
+		public static void peekpop()
 		{
 			//Creating a Stack<T> of int type i.e Stack<int>, to hold int values
 			Stack<int> st = new Stack<int>();
