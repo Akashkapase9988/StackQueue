@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace day14stack 
+namespace day14stackqueue
 {
-	class uc1
+	public class uc1
 	{
-		public static void Main(String[] ar)
+		public static void createstack()
 		{
 			//Creating a Stack<T> of int type i.e Stack<int>, to hold int values
 			Stack<int> st = new Stack<int>();
